@@ -1,0 +1,30 @@
+#window-project, #button-quot, #quot, #img{
+    position: absolute;
+}
+#window-project{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 120px;
+    left: 330px;
+}
+
+#img{
+    height: 70px;
+    width: 70px;
+    top: 0;
+    background-repeat: no-repeat;
+}
+#quot{
+    height: 130px;
+    width: 500px;
+}
+#button-quot{
+    background-color: chocolate;
+    height: 30px;
+    width: 100px;
+    top: 180px;
+}
