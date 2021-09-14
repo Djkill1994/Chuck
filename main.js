@@ -1,6 +1,6 @@
-const icon = document.getElementById('img');
-const quote = document.getElementById('quot');
-const button = document.getElementById('button-quot');
+const icon = document.querySelector('.img');
+const quote = document.querySelector('.quot');
+const button = document.querySelector('.button-quot');
 
 function serverRequest() {
     fetch('https://api.chucknorris.io/jokes/random')
@@ -8,9 +8,10 @@ function serverRequest() {
         .then(function (data) {
             quote.innerHTML = data.value;
             icon.src = data.icon_url;
+            console.log(data)
         })
-};
-serverRequest()
+}
+serverRequest();
 button.addEventListener('click', serverRequest);
 
 

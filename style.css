@@ -3,7 +3,7 @@ body {
     justify-content: space-evenly;
 }
 
-#window-project {
+.window-project {
     height: 300px;
     width: 600px;
     display: flex;
@@ -12,15 +12,19 @@ body {
     flex-direction: column;
 }
 
-#quot {
+.quot {
     height: 130px;
     width: 500px;
 }
 
-#button-quot {
+.button-quot {
     background-color: chocolate;
 }
 
-#img {
+.button-quot:hover {
+    cursor: pointer;
+}
+
+.img {
     margin-bottom: 20px;
 }
